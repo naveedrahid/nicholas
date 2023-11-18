@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Armaro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header class="navbar navbar-expand-lg" id="main_header">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Smart Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Custom PCs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LevelUP Points</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand text-center" href="#"><img src="/assets/img/logo.png" alt=""></a>
+            <div class="button_group d-flex justify-content-end">
+                <button class="bg-transparent border-0 btnCart me-3">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="btnText">Cart</span>
+                    <span class="cartCount">0</span>
+                    <span class="btnSpan"></span>
+                    <span class="btnSpan"></span>
+                    <span class="btnSpan"></span>
+                    <span class="btnSpan"></span>
+                </button>
+                <button class="bg-transparent border-0 text-uppercase btnCta me-3">
+                    Register | Sign In
+                    <span class="btnSpan"></span>
+                    <span class="btnSpan"></span>
+                    <span class="btnSpan"></span>
+                    <span class="btnSpan"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- <video class="videoAbs" width="100%" height="100%" autoplay muted loop playsinline>
+        <source src="/assets/video/headphone.mp4" type="video/mp4">
+    </video> -->
+
+    <!-- End Banner Section -->
+
+    <section class="section observer-section">
+        <div class="nisho-slide">
+            <div class="bannerSection">
+                <canvas class="glaxy-canvas"></canvas>
+                <div class="bannerInner px-5">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="bannerContent">
+                                    <h1 class="text3">
+                                        Journey into the tech tech of tomorrow
+                                    </h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna enim
+                                        ad minim veniam, quis nostrud .
+                                    </p>
+                                    <div class="bannerBtnGroup btnCta d-flex justify-content-evenly">
+                                        <span class="btnSpan"></span>
+                                        <span class="btnSpan"></span>
+                                        <span class="btnSpan"></span>
+                                        <span class="btnSpan"></span>
+                                        <button class="bg-transparent border-0 btnCta text-uppercase btnCta">
+                                            <span>About</span>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                        <button class="bg-transparent border-0 btnCta text-uppercase btnCta">
+                                            <span>Shop Now</span>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="bannerSideImage">
+                                    <div class="img-container">
+                                        <div class="img360">
+                                            <img id="myImg" src="/assets/img/music/img-1.png" />
+                                        </div>
+                                        <div id="preload-imgs"></div>
+                                    </div>
+                                    <!-- <div class="caption">
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="neon-loader">
+                            <div class="loader"></div>
+                            <div class="loader loader2"></div>
+                        </div>
+                        <img src="/assets/img/sdsd.png" class="img-fluid img_arrow" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nisho-slide section2">
+            <div class="product_wrapper_main w-100 px-5">
+                <div class="container-fluid">
+                    <h2 class="text-center text-uppercase primaryStrong">Our <strong>Product</strong></h2>
+                    <div class="row align-content-center justify-content-center">
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p1.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p2.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p3.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p4.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p5.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-content-center justify-content-center">
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p6.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p7.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p8.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p1.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product_grid_wrapper">
+                                <div class="product_inner">
+                                    <div class="product_img">
+                                        <img src="/assets/img/products/p2.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="product_content">
+                                        <h4 class="text-uppercase my-3">Product Namr Here</h4>
+                                        <div class="product_info d-flex align-items-center justify-content-between">
+                                            <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" title="Quick View">
+                                                <span class="text-uppercase">see Detail</span>
+                                                <i
+                                                    class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                                            </div>
+                                            <div class="product_price">
+                                                $1,199.99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nisho-slide section3">
+            <div class="start_journey_wrapper">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-5 col-md-5">
+                            <div class="journey_content">
+                                <h2 class="text-uppercase primaryStrong fw-bolder">
+                                    Ready to Start Your <br><strong>Journey?</strong>
+                                </h2>
+                                <p>Discover the strategies to experience <br>
+                                    lasting energy and improved</p>
+                                <button class="bg-transparent border-0 text-uppercase btnCta me-3">
+                                    Register Now
+                                    <span class="btnSpan"></span>
+                                    <span class="btnSpan"></span>
+                                    <span class="btnSpan"></span>
+                                    <span class="btnSpan"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-md-7">
+                            <div class="journey_image">
+                                <img src="/assets/img/imgjourny.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nisho-slide">
+            <div class="brandMainSec h-100 w-100 position-relative d-flex align-items-center justify-content-center">
+                <!-- <div class="horizontal-sliders">
+                    <div class="brandMain">
+                        <div class="brandSlide">Slide 1</div>
+                        <div class="brandSlide">Slide 2</div>
+                        <div class="brandSlide">Slide 3</div>
+                        <div class="brandSlide">Slide 4</div>
+                        <div class="brandSlide">Slide 5</div>
+                        <div class="brandSlide">Slide 6</div>
+                        <div class="brandSlide">Slide 7</div>
+                        <div class="brandSlide">Slide 8</div>
+                        <div class="brandSlide">Slide 9</div>
+                        <div class="brandSlide">Slide 10</div>
+                        <div class="brandSlide">Slide 11</div>
+                        <div class="brandSlide">Slide 12</div>
+                        <div class="brandSlide">Slide 13</div>
+                        <div class="brandSlide">Slide 14</div>
+                        <div class="brandSlide">Slide 15</div>
+                        <div class="brandSlide">Slide 16</div>
+                    </div>
+                </div> -->
+                <div class="container">
+                    <div id="slider-container">
+                        <div class="slide text-uppercase fw-bold">Brands</div>
+                        <div class="slide text-uppercase fw-bold">Brands</div>
+                    </div>
+                    <h2 class="text-uppercase primaryStrong fw-bolder text-center mb-5">
+                        Brands We <strong> Served</strong>
+                    </h2>
+                    <ul
+                        class="brandInner d-flex flex-wrap align-items-center justify-content-between list-unstyled p-0 m-0">
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b1.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b2.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b3.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b4.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b5.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b6.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b7.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b8.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b9.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="/assets/img/brand/b10.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newArrivals overflow-hidden position-relative">
+        <h2 class="text-uppercase primaryStrong fw-bolder text-center mb-5">
+            New <strong> Arrivals</strong>
+        </h2>
+        <div id="slider-container">
+            <div class="slide text-uppercase fw-bold">New Arrivals</div>
+            <div class="slide text-uppercase fw-bold">New Arrivals</div>
+        </div>
+        <div class="container">
+            <div class="cardsWrapper">
+                <div class="cardInner bg1 d-flex align-items-center">
+                    <div class="cardContent">
+                        <h4 class="text-uppercase fw-bold">
+                            Product name Here
+                        </h4>
+                        <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Quick View">
+                            <span class="text-uppercase">see Detail</span>
+                            <i class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                        </div>
+                        <div class="starrating">
+                            <input type="radio" id="star5" name="user_rating" value="5"><label for="star5"
+                                title="5 star"></label><input type="radio" id="star4" name="user_rating"
+                                value="4"><label for="star4" title="4 star"></label><input type="radio" id="star3"
+                                name="user_rating" value="3"><label for="star3" title="3 star"></label><input
+                                type="radio" id="star2" name="user_rating" value="2"><label for="star2"
+                                title="2 star"></label><input type="radio" id="star1" name="user_rating"
+                                value="1"><label for="star1" title="1 star"></label>
+                        </div>
+                        <div class="card_price fw-bolder">
+                            $1800.00
+                        </div>
+                        <button class="bg-transparent border-0 text-uppercase btnCta me-3">
+                            Shop Now
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                        </button>
+                    </div>
+                    <div class="cardImg">
+                        <img src="/assets/img/led.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="cardInner bg2 d-flex align-items-center">
+                    <div class="cardContent">
+                        <h4 class="text-uppercase fw-bold">
+                            Product name Here
+                        </h4>
+                        <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Quick View">
+                            <span class="text-uppercase">see Detail</span>
+                            <i class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                        </div>
+                        <div class="starrating">
+                            <input type="radio" id="star5" name="user_rating" value="5"><label for="star5"
+                                title="5 star"></label><input type="radio" id="star4" name="user_rating"
+                                value="4"><label for="star4" title="4 star"></label><input type="radio" id="star3"
+                                name="user_rating" value="3"><label for="star3" title="3 star"></label><input
+                                type="radio" id="star2" name="user_rating" value="2"><label for="star2"
+                                title="2 star"></label><input type="radio" id="star1" name="user_rating"
+                                value="1"><label for="star1" title="1 star"></label>
+                        </div>
+                        <div class="card_price fw-bolder">
+                            $1800.00
+                        </div>
+                        <button class="bg-transparent border-0 text-uppercase btnCta me-3">
+                            Shop Now
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                        </button>
+                    </div>
+                    <div class="cardImg">
+                        <img src="/assets/img/pcss.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="cardInner bg3 d-flex align-items-center">
+                    <div class="cardContent">
+                        <h4 class="text-uppercase fw-bold">
+                            Product name Here
+                        </h4>
+                        <div class="see_detail d-flex align-items-center" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Quick View">
+                            <span class="text-uppercase">see Detail</span>
+                            <i class="fa-solid fa-eye d-flex align-items-center justify-content-center"></i>
+                        </div>
+                        <div class="starrating">
+                            <input type="radio" id="star5" name="user_rating" value="5"><label for="star5"
+                                title="5 star"></label><input type="radio" id="star4" name="user_rating"
+                                value="4"><label for="star4" title="4 star"></label><input type="radio" id="star3"
+                                name="user_rating" value="3"><label for="star3" title="3 star"></label><input
+                                type="radio" id="star2" name="user_rating" value="2"><label for="star2"
+                                title="2 star"></label><input type="radio" id="star1" name="user_rating"
+                                value="1"><label for="star1" title="1 star"></label>
+                        </div>
+                        <div class="card_price fw-bolder">
+                            $1800.00
+                        </div>
+                        <button class="bg-transparent border-0 text-uppercase btnCta me-3">
+                            Shop Now
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                            <span class="btnSpan"></span>
+                        </button>
+                    </div>
+                    <div class="cardImg">
+                        <img src="/assets/img/pmsd.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="focusWrapper position-relative">
+        <div id="slider-container">
+            <div class="slide text-uppercase fw-bolder">Our Focus</div>
+            <div class="slide text-uppercase fw-bolder">Our Focus</div>
+        </div>
+        <div class="container">
+            <h2 class="text-uppercase primaryStrong fw-bolder text-center mb-5">
+                Our<strong> Focus</strong>
+            </h2>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="focusColInner">
+                        <div class="focusColImg">
+                            <img src="/assets/img/f1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="focusColContent">
+                            <h4 class="text-uppercase fw-bold">CRAFTSMANSHIP</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna enim ad minim veniam, quis nostrud . Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna enim ad minim .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="focusColInner">
+                        <div class="focusColImg">
+                            <img src="/assets/img/f2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="focusColContent">
+                            <h4 class="text-uppercase fw-bold">CRAFTSMANSHIP</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna enim ad minim veniam, quis nostrud . Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna enim ad minim .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="focusColInner">
+                        <div class="focusColImg">
+                            <img src="/assets/img/f3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="focusColContent">
+                            <h4 class="text-uppercase fw-bold">CRAFTSMANSHIP</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna enim ad minim veniam, quis nostrud . Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna enim ad minim .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="focusColInner">
+                        <div class="focusColImg">
+                            <img src="/assets/img/f4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="focusColContent">
+                            <h4 class="text-uppercase fw-bold">CRAFTSMANSHIP</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna enim ad minim veniam, quis nostrud . Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna enim ad minim .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_us_wrapper position-relative">
+        <div class="about_us_wrapper_inner d-flex align-items-center flex-column justify-content-center">
+            <div id="slider-container">
+                <div class="slide text-uppercase fw-bolder">About Us</div>
+                <div class="slide text-uppercase fw-bolder">About Us</div>
+            </div>
+            <div class="about_us_circle w-100 d-flex position-relative align-items-center">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-5 col-lg-5 col-sm-6">
+                            <div class="abt_content">
+                                <p class="text-uppercase"><small>explore more</small></p>
+                                <h2 class="text-uppercase fw-bolder">About us</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-7 col-sm-6">
+                            <div class="abt_img">
+                                <img src="/assets/img/abt.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recent_news_wrapper d-flex position-relative align-items-center">
+            <div class="recent_news_inner w-100">
+                <p class="fw-bold text-uppercase text-center borderLeftRight"><span></span> Recent Articles
+                    <span></span>
+                </p>
+                <div id="slider-container">
+                    <div class="slide text-uppercase fw-bolder">Recent News</div>
+                    <div class="slide text-uppercase fw-bolder">Recent News</div>
+                </div>
+                <div class="container">
+                    <h2 class="text-uppercase primaryStrong fw-bolder text-center mb-5">
+                        Recent <strong> News</strong>
+                    </h2>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="recentColInner">
+                                <div class="recentColImg">
+                                    <img src="/assets/img/f1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="recentColContent">
+                                    <h4 class="text-uppercase fw-bold">Heading Comes Here</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="recentColInner">
+                                <div class="recentColImg">
+                                    <img src="/assets/img/f1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="recentColContent">
+                                    <h4 class="text-uppercase fw-bold">Heading Comes Here</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="recentColInner">
+                                <div class="recentColImg">
+                                    <img src="/assets/img/f1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="recentColContent">
+                                    <h4 class="text-uppercase fw-bold">Heading Comes Here</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="aboutfooter wigdet_1">
+                        <h6 class="titleFooter">About</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore.
+                        </p>
+                        <div class="social">
+                            <a href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="javascript:void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wigdet_2  menu_3 menu">
+                        <h6 class="titleFooter">Contact Info</h6>
+                        <div class="footer_detail">
+                            <div class="footer_icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="footer_content">
+                                <p><strong>ADDRESS</strong></p>
+                                <p>This is a dummy text, your address goes here...</p>
+                            </div>
+                        </div>
+                        <div class="footer_detail">
+                            <div class="footer_icon">
+                                <i class="fa-solid fa-mobile-screen"></i>
+                            </div>
+                            <div class="footer_content">
+                                <p><strong>CALL US 24/7</strong></p>
+                                <p>+123 456 7890</p>
+                            </div>
+                        </div>
+                        <div class="footer_detail">
+                            <div class="footer_icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="footer_content">
+                                <p><strong>EMAIL</strong></p>
+                                <p>info@timothys.settle.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class=" wigdet_3 menu_3 menu">
+                        <h6 class="titleFooter">Quick Links</h6>
+                        <ul>
+                            <li><a href="javascript:void(0);">Home</a></li>
+                            <li><a href="javascript:void(0);">About Us</a></li>
+                            <li><a href="javascript:void(0);">Reviews</a></li>
+                            <li><a href="/blog.php">Blogs </a></li>
+                            <li><a href="javascript:void(0);">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wigdet_4 ">
+                        <h6 class="titleFooter">Newsletters</h6>
+                        <p><strong>Subscribe For Newsletters</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        <div class="form-new">
+                            <input type="text" placeholder="Email Address" fdprocessedid="nazckg">
+                            <button fdprocessedid="xhdgs8"><i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom text-center mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="subFooter-menu">
+                            <li><a href="javascript:void(0);">Privacy Policy </a></li>
+                            <li><a href="javascript:void(0);">Refund Policies</a></li>
+                            <li><a href="javascript:void(0);">Shipping policies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="copy-right">© 2023 , All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Banner Section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/glaxy.js"></script>
+    <script src="/assets/js/swipper-img.js"></script>
+</body>
+
+</html>
