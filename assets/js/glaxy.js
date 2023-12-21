@@ -93,7 +93,7 @@ class Starfield {
     start() {
       this.interval = setInterval(
         () => requestAnimationFrame(() => this.draw()),
-        1000 / this.fps,
+        8000 / this.fps,
       );
     }
   

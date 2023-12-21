@@ -1,0 +1,116 @@
+.neoAbtLoader {
+    bottom: 0% !important;
+}
+
+/* About Us CSS */
+
+.aboutUsWrapper {
+    background: url('../img/aboutUs/abtbg.png') no-repeat center center / cover;
+    background-position: 100% 0%;
+    padding: 6vw 0vw;
+}
+
+.counterCta {
+    flex-basis: 32%;
+    max-width: 32%;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgba(118, 55, 187, 0.102);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.counterCta h3 {
+    color: #e2463f;
+    font-size: 45px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.abtAdvantagesWrapper {
+    background: url('../img/aboutUs/About-Us-copy.jpg') no-repeat center center;
+    background-position: center top;
+    background-size: 122%;
+}
+
+s .advantagesInner img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.advantagesInner img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.advantagesBgGradient {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 38px 15px;
+}
+
+.advantagesInner:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/aboutUs/ffUntitled-1.png') no-repeat center center / cover;
+    background-position: center center;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+    opacity: 0.6;
+}
+
+.advantagesWrapper {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+section.abtAdvantagesWrapper {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.abtBrandMainSec.brandMainSec{
+    background:unset;
+}
+
+.abtBrandMainSec {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+section.focusWrapper.abtFocusWrapper {
+    padding-top: 5vw;
+}
+.abtBrandMainSec.brandMainSec div#slider-container ,
+section.focusWrapper.abtFocusWrapper div#slider-container {
+    top: 22% !important;
+    bottom: unset !important;
+}
+
+.abtBrandMainSec.brandMainSec h2,
+section.focusWrapper.abtFocusWrapper h2 {
+    margin: 0px 0px;
+    padding: 6vw 0vw;
+}
+.abtAdvantagesWrapper div#slider-container {
+    top: 0;
+    bottom: unset;
+}
+.titleSections{
+    z-index:1;
+}
+.recentNewsWrapper div#slider-container {
+    bottom: -9%;
+}
+.recentNewsWrapper .titleSections {
+    margin-bottom: 60px;
+}
