@@ -192,6 +192,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
     color: var(--white);
     text-decoration: none;
 }
@@ -217,12 +218,27 @@
 }
 
 */
-
 /******************************************
 
     default Css
 
 ********************************************/
+
+.btnfull button:hover i {
+    transform: translateX(10px);
+    transition: 0.4s ease;
+}
+
+.btnfull button i {
+    transform: translateX(0px);
+    transition: 0.4s ease;
+}
+
+.btnContainer:hover a,
+.btnfull button:hover span {
+    color: #e52123;
+}
+
 .btnCart,
 .btnCta {
     color: var(--white);
@@ -249,12 +265,6 @@
 .btnCta:hover .btnSpan {
     opacity: 0;
 }
-
-/* .btnCart:hover,
-.btnCta:hover {
-    box-shadow: 0 0 10px var(--btn-default-color), 0 0 30px var(--btn-default-color), 0 0 50px var(--btn-default-color);
-    background: #e6362d !important;
-} */
 
 .btnCta .btnSpan:nth-child(1),
 .btnCart .btnSpan:nth-child(4) {
@@ -400,6 +410,9 @@ p {
     Page Title Css
 
 ********************************************/
+.pageTitleWrapper .neon-loader .loader:first-child {
+    left: -4px;
+}
 
 .pageTitleInner {
     background: url(../img/aboutUs/banner.png) no-repeat center center / contain;
@@ -450,6 +463,10 @@ p {
     border-bottom: solid 5px #8b0f0f;
 }
 
+#navbarNavDropdown li.nav-item:hover a {
+    color: #e52123;
+}
+
 #main_header {
     background-color: var(--bgBlack);
     position: absolute;
@@ -487,28 +504,25 @@ p {
     position: relative;
 }
 
-/* #main_header::before {
-    content: '';
-    background: url('../img/Unsdsdtitled-5.png') no-repeat center center / contain;
-    position: absolute;
-    width: 32%;
-    height: 100%;
-    bottom: 0%;
-    top: 68%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    z-index: 0;
-    margin-right: auto;
-} */
-
-
 
 /******************************************
     
         Banner Css
     
 ********************************************/
+.btnfull button:hover i {
+    transform: translateX(10px);
+    transition: 0.4s ease;
+}
+
+.btnfull button i {
+    transform: translateX(0px);
+    transition: 0.4s ease;
+}
+
+.homePageLoader {
+    top: 90% !important;
+}
 
 img#myImg {
     width: 61%;
@@ -663,8 +677,8 @@ img {
 
 .neon-loader .loader {
     position: relative;
-    width: 13.5rem;
-    height: 13.5rem;
+    width: 11.5rem;
+    height: 11.5rem;
     margin: 30px;
     background: linear-gradient(45deg, transparent 60%, #7cfc00);
     border-radius: 50%;
@@ -703,8 +717,8 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 13rem;
-    height: 13rem;
+    width: 11rem;
+    height: 11rem;
     background-color: #151515;
     border-radius: 50%;
     bottom: 0;
@@ -723,7 +737,7 @@ img {
 }
 
 .neon-loader .loader:first-child {
-    top: -55px;
+    top: -5px;
     left: -45px;
 }
 
@@ -1740,6 +1754,10 @@ p.copy-right {
     border: solid 1px #fff;
 }
 
+.sideMenu li.nav-item a:focus {
+    color: #e52123;
+}
+
 .sideMenu h4 {
     background: #c52f27;
     border-radius: 30px 30px 0px 0px;
@@ -1821,9 +1839,7 @@ p.copy-right {
 }
 
 .product_grid_shop:hover .product_img img {
-    scale: 1.2;
     transition: all 0.3s ease;
-    transform: translateY(-51px);
 }
 
 .product_grid_shop .product_inner .product_img:before {
@@ -2309,7 +2325,7 @@ button.btnDngr {
 }
 
 .realtedProduct .product_grid_shop:hover .product_img img {
-    transform: translateY(-10px);
+    transform: translateY(0px);
 }
 
 .realtedProduct .product_content h4,
@@ -2397,6 +2413,21 @@ button.btnDngr {
 .addToCart .btnAddCart {
     flex-basis: 40%;
     max-width: 40%;
+    transition: 0.4s ease;
+}
+
+.selectBtn:hover .btnDngr{
+    transition: 0.4s ease;
+}
+.selectBtn:hover .btnDngr{
+    background: #c72f28;
+    transition: 0.4s ease;
+}
+.btnAddCart:hover .btnDngr,
+.spcialNotes .btnDngr:hover {
+    background: transparent;
+    color: #c72f28;
+    transition: 0.4s ease;
 }
 
 .cartTottal p {
@@ -2592,6 +2623,7 @@ button.btnDngr {
 .tabsColoumns .tabsRating i {
     color: #ffd14c;
 }
+
 .tabsColoumns {
     border-bottom: solid 1px #ccc6;
 }
@@ -2599,6 +2631,7 @@ button.btnDngr {
 .tabsProductContent .tabsColoumns:last-child {
     border: none;
 }
+
 @media only screen and (max-width: 1600px) and (min-width: 1440px) {
     #navbarNavDropdown ul.navbar-nav li a {
         font-size: 14px !important;
